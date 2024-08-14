@@ -31,8 +31,6 @@ Base.show(io::IO, z::Game) = print(io,"'",z.teamA,"' plays '", z.teamB,"' on Fie
 Game("teamA","teamB",1,missing,missing,false)
 
 
-
-
 """
 RoundOfGames:
 A set of games that are all been played at the same time. 
